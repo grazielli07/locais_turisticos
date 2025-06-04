@@ -46,4 +46,9 @@ p{
 
 ul{
     padding-left: 2.4rem;
+    font-weight: 700;
+
+    li::marker {
+        color: var(--text-secundary);
+    }
 }
